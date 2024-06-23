@@ -9,6 +9,7 @@ import { AuthService } from '../auth.service';
   templateUrl: './login.component.html',
   standalone: true,
   imports: [ReactiveFormsModule],
+  styleUrls: ['./login.component.css'],
 })
 export class LogicComponent {
   [x: string]: any;
@@ -32,5 +33,9 @@ export class LogicComponent {
         this.errorMessage = err.code;
       },
     });
+  }
+
+  navigateToRegister() {
+    this.router.navigateByUrl('/register');
   }
 }
