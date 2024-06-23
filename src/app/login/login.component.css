@@ -1,0 +1,57 @@
+/* Container Styles */
+.login-container,
+.signup-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #9eb7ce;
+  border-radius: 8px;
+}
+
+/* Header Styles */
+.login-container h2,
+.signup-container h2 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* Form Group Styles */
+.login-container form div,
+.signup-container form div {
+  margin: 25px 0 15px;
+  padding: 10px;
+  border: 1px solid #9eb7ce;
+  border-radius: 4px;
+}
+
+/* Label Styles */
+.login-container label,
+.signup-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input Styles */
+.login-container input,
+.signup-container input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #9eb7ce;
+}
+
+/* Button Styles */
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #9abfe6;
+  color: rgb(10, 10, 10);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #79b0e7;
+}
