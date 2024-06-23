@@ -9,6 +9,7 @@ import { AuthService } from '../auth.service';
   templateUrl: './register.component.html',
   standalone: true,
   imports: [ReactiveFormsModule],
+  styleUrls: ['./register.component.css'],
 })
 export class RegisterComponent {
   fb = inject(FormBuilder);
@@ -29,7 +30,7 @@ export class RegisterComponent {
       .register(rawForm.email, rawForm.username, rawForm.password)
       .subscribe({
         next: () => {
-          this.router.navigateByUrl('/');
+          this.router.navigateByUrl('/home');
         },
         error: (err) => {
           this.errorMessage = err.code;
