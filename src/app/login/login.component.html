@@ -1,17 +1,38 @@
 <h1>Login</h1>
 
+<head>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <!--Stylesheet-->
+
+</head>
 @if (errorMessage) {
 <div>{{ errorMessage }}</div>
 }
 
-<form [formGroup]="form" (ngSubmit)="onSubmit()">
-  <div>
-    <input type="text" placeholder="Email" formControlName="email" />
+
+<body>
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
   </div>
-  <div>
-    <input type="password" placeholder="Password" formControlName="password" />
-  </div>
-  <div>
-    <button type="submit">Sign In</button>
-  </div>
-</form>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <h3>Login Here</h3>
+    <div>
+      <label for="username">Email</label>
+      <input type="text" placeholder="Email" formControlName="email" />
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input type="password" placeholder="Password" formControlName="password" />
+    </div>
+    <div>
+      <button type="submit">Sign In</button>
+    </div>
+    <button (click)="navigateToRegister()">New here? Sign Up</button>
+  </form>
+</body>
