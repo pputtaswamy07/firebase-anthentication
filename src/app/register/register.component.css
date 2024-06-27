@@ -15,7 +15,7 @@ body {
 
 .background {
   width: 430px;
-  height: 520px;
+  height: 420px;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -23,7 +23,7 @@ body {
 }
 
 form {
-  height: 560px;
+  height: 540px;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.13);
   position: absolute;
@@ -72,11 +72,11 @@ input {
 }
 
 button {
-  margin-top: 50px;
+  margin-top: 40px;
   width: 100%;
   background-color: #999595;
   color: #eeedf7;
-  padding: 15px 0;
+  padding: 10px 0;
   font-size: 18px;
   font-weight: 600;
   border-radius: 5px;
