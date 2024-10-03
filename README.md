@@ -18,7 +18,7 @@ Follow these steps to install and set up the project.
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/yourusername/your-angular-firebase-auth.git
+    git clone https://github.com/pputtaswamy07/angular-firebase-auth
     cd your-angular-firebase-auth
     ```
 
@@ -111,4 +111,4 @@ If you would like to contribute to this project, please follow these steps:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact Information
-If you have any questions or feedback, feel free to contact me at [your.email@example.com](mailto:your.email@example.com).
+If you have any questions or feedback, feel free to contact me at [poojaputtaswamy07@gmail.com](poojaputtaswamy07@gmail.com).
